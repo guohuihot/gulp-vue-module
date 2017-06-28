@@ -85,6 +85,8 @@ module.exports = function(options) {
                     
                     if (type === "style") {
                         var style = parse5.serialize(node);
+                        // style is empty
+                        if (!/[a-z]/.test(style)) return;
                         
                         if (!lang || lang === "css") {
                             style.split("\n").forEach(function(line){
