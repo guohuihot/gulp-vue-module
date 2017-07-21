@@ -1,7 +1,7 @@
 {
-  "name": "gulp-vue-module",
-  "version": "0.1.2",
-  "homepage": "https://github.com/pandao/gulp-vue-module",
+  "name": "gulp-vue-module2",
+  "version": "0.1.4",
+  "homepage": "https://github.com/guohuihot/gulp-vue-module",
   "description": "Gulp plugin for Vue.js `*.vue` component file complie to AMD / CMD / CommonJS module.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,7 @@
     "vue",
     "amd",
     "module",
+    "seajs",
     "component",
     "gulpplugin"
   ],
@@ -18,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/pandao/gulp-vue-module.git"
   },
-  "author": "Pandao",
+  "author": "Ahuing",
   "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.7",
